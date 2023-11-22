@@ -1,0 +1,26 @@
+.App{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ 
+}
+
+.name{
+  background-color: darkgrey;
+}
+.image{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
